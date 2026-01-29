@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Cargando los assets -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/main.js" defer></script>
+    <link rel="icon" type="image/png" href="./assets/img/estrella.png">
+
+    <title>Widget de publicaciones sintéticas</title>
+</head>
+<body>
+
+    <header class="widget_header">
+        <img class="header_icon" src="./assets/img/estrella.png">
+    <h1 class="widget_header">Publicaciones sintéticas</h1>
+    </header>
+    
+<section class="widget">
+
+    <textarea class="widget_textarea" placeholder ="Escribe algo..." maxlength="500"></textarea>
+
+    <input type="text" class="widget_username" placeholder="Tu nombre de usuario..." maxlength="50">
+
+    <div class="widget_buttons">
+        <button class="widget_button widget_button--ia">🕹️
+        </button>
+
+        <button class="widget_button widget_button--pub">Publicar</button>
+
+    </div>
+
+    <section class="widget_posts"></section>
+
+</section>
+
+</body>
+</html>

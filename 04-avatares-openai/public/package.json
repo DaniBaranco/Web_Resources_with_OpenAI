@@ -1,0 +1,6 @@
+{
+  "name": "01-traducciones-openai",
+  "version": "1.0.0",
+  "description": "proyecto de traducciones usando JS y el API de OpenAI",
+  "private": true
+}
