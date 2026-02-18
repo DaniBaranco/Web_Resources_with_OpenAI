@@ -1,4 +1,4 @@
-# Curso_web_IA
+# Recursos para app / web con OpenAI
 
 Colección de ejemplos prácticos que muestran integraciones y widgets con OpenAI (proyectos de ejemplo para curso).
 
